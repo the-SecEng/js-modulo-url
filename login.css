@@ -1,0 +1,305 @@
+#password, #passwordConfirmation {
+  margin-left: 5em;
+}
+#passwordConfirmation {
+  margin-top: 1rem;
+}
+
+#botonConfirmar {
+  margin-left: 9em;
+  margin-bottom: 3rem;
+  height: 2em;
+  padding-bottom:
+}
+
+@font-face {
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('./fonts/Muli-Regular.ttf');
+  }
+  @font-face {
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('./fonts/Muli-Bold.ttf');
+  }
+  body{
+    line-height: 100%;
+    background: url(../vendor/tuki_2_0/engow/isotipo_bg.png) no-repeat;
+    background-position: 96% 250px;
+		background-size:40%;
+	}
+	p{
+		font-family: "Muli", sans-serif !important;
+		margin-bottom: 0rem;
+		margin-bottom: 0.5rem;
+		margin-top:	0.5rem;
+	}
+	#password, #email {
+		font-weight: initial;
+		font-size: 16px;
+		border-radius:10px;
+	}
+	.login-footer p , .login-footer a{
+		text-align: center;
+		line-height: 100%;
+		color: #8C8C8C;
+		font-weight: 500;
+	}
+	.margin-8-top{
+		margin-top: 8%;
+	}
+	.margin-3-top{
+		margin-top: 3%;
+	}
+	.margin-4-top{
+		margin-top: 4%;
+	}
+	.padding-8-top{
+		padding-top: 8%;
+  }
+  .titleLogin{
+    margin-top: 15px;
+    color: #6500ca;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .optSel{
+    cursor: pointer;
+  }
+	.lblLogin {
+    color: rgb(231, 24, 28);
+    font-family: "Muli", sans-serif !important;
+		font-weight: bold;
+		font-size: 1em;
+	}
+  .forgetPasword{
+    border-bottom: none !important;
+		font-weight: bold;
+		font-size: 1rem;
+    width: 100%;
+    margin-top: -5px;
+  }
+  .forgetPasword p{
+    width: 100%;
+  }
+	.optSelect {
+    font-size: 1rem;
+		color: rgb(231, 24, 28);
+		cursor: default;
+		font-family: "Muli", sans-serif !important;
+		font-weight: bold;
+	}
+	.password-recovery{
+		height: 2.5rem;
+		line-height: 2.5rem;
+	}
+
+	.outer {
+		display: table;
+		position: absolute;
+		height: 100%;
+		width: 100%;
+	}
+	.middle {
+		display: table-cell;
+		vertical-align: middle;
+	}
+	.login-div{
+		position: relative;
+    min-height: 100vh;
+    max-width: 650px;
+    padding: 20px;
+    margin: 0 auto;
+	}
+	#chkLogin {
+	    cursor: pointer;
+	}
+	#email,#password{
+		border:1px solid  #e7e7e7;
+		background-color: #fcfcfb;
+	}
+	input[type=text],input[type=email], input[type=password], #formNew input
+	{
+    padding: 22px;
+	border: 1px solid #e7e7e7;
+		border-color: #e7e7e7;
+		font-size: 1rem;
+		background-color:#fbfbfc;
+		color:black;
+    font-family: "Muli", sans-serif !important;
+    background: rgba(92,20,162,0.1);
+    border:1px solid rgb(153,195,253,0.25);
+    border-radius: 25px;
+    box-shadow: none;
+  }
+  input[type=text]:focus, input[type=password]:focus, #formNew input:focus
+	{
+		border: 1px solid #eeeeee;
+		border-color: #eeeeee;
+		background-color: #fcfcfb;
+		color:black;
+  }
+	[type="checkbox"] + label, [type="radio"] + label {
+		margin-left: -0.25rem;
+		margin-right: 0rem;
+	}
+	input[type='radio'], input[type='checkbox'] {
+		display:none;
+	}
+	input[type='radio'] + label +p, input[type='checkbox'] + label +p{
+		margin-left: 40px;
+		margin-top: 11px;
+		margin-bottom: 11px;
+    font-size: 0.9rem;
+    color: #b4b4b4;
+    font-weight: 700;
+		display: inline-block;
+	}
+	input[type='radio'] + label, input[type='checkbox'] + label {
+		background:url('../vendor/tuki_2_0/uncheck.svg') no-repeat;
+		height: 40px;
+		width: 40px;
+		padding: 0 0 0 0px;
+		display:inline-block;
+		position: absolute;
+	}
+	input[type='radio']:checked + label, input[type='checkbox']:checked + label {
+		background:url('../vendor/tuki_2_0/check.svg') no-repeat;
+		height: 40px;
+		width: 40px;
+		padding: 0 0 0 0px;
+		display:inline-block;
+		position: absolute;
+	}
+
+
+	.btnLogin{
+		margin: 0;
+		font-family: "Muli", sans-serif !important;
+		background-color: rgb(214,214,214);
+		outline: none;
+		font-weight: initial;margin-top: 110px;font-size: 16px;border-radius:10px;
+	}
+
+	.btnLogin:hover{
+		background-color: rgb(2,67,126);
+		-moz-box-shadow:0 0 8px 0 gray;
+		-webkit-box-shadow:0 0 8px 0 gray;
+		box-shadow:0 0 8px 0 gray;
+		font-weight: initial;
+		margin-top: 110px;
+		font-size: 16px;
+		border-radius:10px;
+	}
+	.btnLogin:focus{
+		background-color: rgb(2,67,126);
+		-moz-box-shadow:0 0 8px 0 gray;
+		-webkit-box-shadow:0 0 8px 0 gray;
+		box-shadow:0 0 8px 0 gray;
+		font-weight: initial;
+		margin-top: 110px;
+		font-size: 16px;
+		border-radius:10px;
+	}
+
+	.logo-footer{
+		width: 7rem; display: block; margin: 0 auto;
+	}
+
+	::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	  color: #999999 !important;
+	}
+	::-moz-placeholder { /* Firefox 19+ */
+	  color: #666666 !important;
+	}
+	:-ms-input-placeholder { /* IE 10+ */
+	  color: #808080 !important;
+	}
+	:-moz-placeholder { /* Firefox 18- */
+	  color: #666666 !important;
+	}
+
+	.hideme{
+		display: none;
+	}
+
+	.form-error{
+		line-height: 100%;
+	}
+
+	.showErrorCredentials{
+		font-size: 0.75rem;
+		font-weight: 700;
+		margin-bottom: 1rem;
+		margin-top: -0.5rem;
+		line-height: 100%;
+		color: #ec5840;
+	}
+
+	.login-container{
+		margin-top: 7%;
+	}
+
+  /* Footer */
+footer {
+  width: 100%;
+	/* bottom: 35px; */
+	position: relative;
+	margin-top: 0rem;
+}
+#footer {
+  font-size: 12px;
+  width: 100%;
+  z-index: 0;
+  line-height: 45px;
+  margin: 0 0px 0 0;
+  padding: 0 30px 0 0px;
+  color: rgba(98, 113, 155, 0.7);
+  text-align: right;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.footer-text{
+	text-align: center;
+	color: #8C8C8C;
+	font-size: 12px;
+}
+.footer-text b{
+	color: #8C8C8C;
+}
+#footer img {
+	margin: 1rem auto;
+	display: block;
+	width: 120px;
+}
+.jb-mt-40 {
+	margin-top: 40px;
+}
+	@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+		.login-container{
+			margin-top: 5%;
+    }
+	.login-container{
+		width: 100% !important;
+	}
+	body, .login-div {
+		background-color: white !important;
+	}
+	} /*end media queries medium only*/
+
+	@media screen and (max-width: 39.9375em) { /*small only*/
+		.login-container{
+			margin-top: 5%;
+    }
+	.login-container{
+		width: 100% !important;
+	}
+	body, .login-div {
+		background-color: white !important;
+	}
+	}
